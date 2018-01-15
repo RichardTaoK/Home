@@ -1,0 +1,377 @@
+/* @import url('base.css'); */
+*{
+	list-style: none;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+
+}
+.icon {
+   width: 1em; 
+   height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   font-size: 36px;
+   text-align: center;
+}
+/* about */
+	.about{
+		width: 100%;
+		padding-bottom: 60px;
+
+	}
+
+	.top{
+		padding: 20px 0;
+		max-width: 600px;
+		margin: 0 auto;
+
+	}
+	.top h1{
+		font-size: 36px;
+		color: #0d0d0d;
+		text-align: center;
+		font-weight: bolder;
+	}
+	.top p{
+		font-size: 14px;
+		line-height: 22px;
+		color:#55575d;
+		text-align: center;
+	}
+ 	/* img */
+	.about .row .about_img img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.about .about_text h2{
+		font-size:36px;
+		color: #0d0d0d;
+		font-weight: 700;
+		margin-top: 0; 
+	}
+	.about .about_text p{
+		font-size: 14px;
+		color: #55575d;
+		line-height: 24px;
+	}
+	.about .about_text .a div{
+		height: auto;
+	}
+	 .row h4{
+		font-size:24px;
+		color: #0d0d0d;
+		font-weight: 700;
+		margin-top: 0;
+
+	}
+	/* .about .about_text div  */
+	p{
+		font-size: 14px;
+		line-height: 22px;
+		color:#55575d;
+	} 
+/* skill */
+	.skill{
+		background: #F3F3F4;
+		/* height: 250px; */
+		padding: 40px 0;
+	}
+	
+	.skill li .box{
+		background: #fff;
+		padding:  30px;
+		text-align: center;
+		box-sizing: border-box;
+	 	transition: all 1s;
+	 	height: 250px;
+		margin-bottom: 30px;
+	}
+	.skill li .box:hover{
+		transform: translateY(-10px);
+		box-shadow: 0 0 15px 3px #ccc;
+	}
+	
+	.skill h4{
+		margin-top:20px; 
+		text-align: center;
+	}
+	.skill p{
+		text-align: center;
+		/* height: 50px; */
+		/* white-space: nowrap; */
+		/* overflow: hidden; */
+		/* text-overflow: ellipsis; */
+	}
+
+/* work */
+	.work{
+		padding-bottom: 60px;
+		padding-top: 60px;
+		background: #fff;
+	}
+	.work ul{
+		max-width: 500px;
+		margin: 0 auto;
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+		/* justify-content: center; */
+		
+
+		/* background-color: red; */
+	}
+	.work ul li{
+		/* width: 100%; */
+		margin: 0 auto;
+		text-align: center;
+		float: left;
+		/* background-color: yellowgreen; */
+	}
+	.work ul li a{
+		width: 100%;
+		margin-left: 25px;
+		font-size:16px;
+		line-height: 28px;
+		font-weight: 700;
+		color: #979797;
+		text-decoration: none; 
+	}
+
+	.work ul li:first-child a{
+		color: #0d1218;
+	}
+	.work ul li a:hover{
+		color: #0d1218;
+	}
+	.work .a{
+		margin-top: 25px;
+	}
+	.work .a .aa{
+		margin-bottom: 25px;
+		position: relative;
+		box-sizing: border-box;
+
+	}
+	.work .a img{
+		width: 100%;
+		height: 100%;
+	}
+	.work .a .aa div{
+		width: 100%;
+		height: 100%;
+		/* background: red; */
+		position: relative;
+	}
+	.work .a .aa .yy{/* 遮罩阴影 */
+		background: #000;
+		opacity: 0.6;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: all 2s;
+		text-align: center;
+		padding-top: 20%;
+		color: #fff;
+	}
+	.work .a .aa a{
+		text-decoration: none;
+	}
+	 .work .a .aa .yy .iconfont{
+	 	font-size: 36px;
+	 }
+	 .work .a .aa .yy:hover .iconfont{
+	 	transition: all 1s;
+	 	/* transform: translateY(50px); */
+	 	/* animation: xia 2s; */
+	 }
+	 @keyframes xia{
+	 	from{
+	 		position: absolute;
+			/* left: 50%; */
+			top: 0；
+	 	}
+	 	to{
+			position: absolute;
+			/* left: ; */
+			top: 50%;
+	 	}
+
+	 }
+	.work .a .aa .yy h3{
+		display: block;
+		font-size: 18px;
+		font-weight: 700;
+
+	}
+	.work .a .aa .yy span{
+		font-size: 14px;
+		
+	}
+	.work .a .aa div:hover .yy{
+		opacity: 1;
+	}
+	/* .work .a .aa div:hover i{
+		transform: translateY(50px);
+	} */
+
+/* footer */
+	footer{
+		padding: 25px 0;
+
+	}
+	.left .class_input,.left .class_submit{
+		width: 100%;
+		padding: 10px 15px;
+		border-radius: 3px;
+		font-size: 15px;
+		line-height: 24px;
+		color: ##a3a8;
+		margin-bottom: 20px;
+		border: 1px solid #e4e7e9;
+	}
+	.left .class_submit{
+		width: auto;
+		background: black;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 15px 30px;
+	}
+
+	.right .icon_item{
+		margin-bottom: 15px;
+		float: left;
+
+	}
+	.right .icon{
+		width: 60px;
+		height: 60px;
+		margin-right: 15px;
+		background-color: #f6f6f6;
+		float: left;
+	}
+	.right .icon span{
+		display: block;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 36px;
+		text-align: center;
+		background-color: #ccc;
+
+	}
+	.right .icon span .iconfont{
+		color:#55575d;
+		font-size: 36px;
+	}
+	.right .icon_zi p{
+		line-height: 26px;
+		font-weight: 500;
+		color: #959595;
+		font-size: 16px;
+	}
+	.last {
+		padding: 42px 0;
+		background-color: #0d1218;
+		color: #fff;
+		position: relative;
+
+	}
+	.last p{
+		padding: 6px 0;
+		font-size: 14px;
+		line-height: 24px;
+		color: #fff;
+	}
+	.last ul li{
+		float: right;
+	}
+	.last ul span{
+		display: block;
+		width: 36px;
+		height: 36px;
+		line-height: 38px;
+		border-radius: 100%;
+		transition: 0.25s;
+		background-color:  #86888B;
+		text-align: center;
+		margin-right: 10px;
+	}
+	.last ul span:hover{
+		background-color: #00BFFF;
+		color: #fff;
+
+	}
+	.last ul li a{
+		text-decoration: none;
+	}
+	.last ul span .iconfont{
+		font-size: 20px;
+		color: #252525;
+		text-align: center;
+		width: 36px;
+		height: 36px;
+
+	}
+	.last ul span .iconfont:hover{
+		color: #fff;
+	}
+	.last .base{
+		width: 36px;
+		height: 36px;
+		font-weight:400;
+		background-color: #0d1218;
+		line-height: 38px;
+		font-size: 16px; 
+		position: absolute;
+		transform:rotate(45deg);
+		top: -18px;
+		left: 0;
+		right: 0;
+		margin-left: 50%;
+		text-decoration: none;
+	}
+	.last .base .iconfont{
+		position: absolute;
+		transform:rotate(-45deg);
+
+		left: 30%;
+	}
+	.last .base:hover{
+		background-color: #00BFFF;
+		
+	}
+	.last .base .iconfont:hover{
+		color: #fff;
+	}
+
+/* 移动端 */
+@media screen and (max-width: 768px) {
+	.about .about_img{
+		margin:0 auto 30px;
+	}
+}
+/* 平板 */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.about .about_img{
+		margin:0 auto 30px;
+
+	}
+}
+/* pc小屏 992-1200*/
+@media screen and (min-width:992px) and (max-width: 1200px){
+	
+	
+}
+/* pc大屏 */
+@media screen and (main-width: 1200px){
+	
+}
+
+
